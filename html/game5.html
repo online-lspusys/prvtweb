@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE BREAKER</title>
+    <link rel="stylesheet" href="../css/game5-style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#">WEMB MAV<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">x</span>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="start-screen">
+        <h2>CODE BREAKER</h2>
+        <p>As you immerse yourself in the world of Code Breaker, you'll encounter a secret code waiting to be deciphered. With each guess, you'll receive feedback on your progress, guiding you closer to the correct combination.</p>
+        <button id="start-button">Start Game</button>
+        <button id="return-button">Return to List</button>
+    </div>
+
+    <div class="game-container" id="game-container" style="display: none;">
+        <h1>CodeBREAKER</h1>
+        <div id="timer">Timer: 0s</div>
+        <div id="latest-guess" class="display-box"></div>
+        <div id="user-guess-display" class="display-box"></div>
+        <div id="number-buttons"></div>
+        <button onclick="makeGuess()">Guess</button>
+        <button onclick="clearGuess()">Clear</button>
+        <p id="feedback"></p>
+    </div>
+
+    <div id="buttons-container" class="buttons-container">
+        <button id="restart">Restart</button>
+        <button id="exit">Exit</button>
+    </div>
+
+<script src="../scripts/game5-script.js"></script>
+</body>
+</html>

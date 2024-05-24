@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAINBLAST</title>
+    <link rel="stylesheet" href="../css/game4-style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#">WEMB MAV<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">x</span>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="start-screen">
+        <h2>BRAIN BLAST</h2>
+        <p>The ultimate test of wit and speed where every second counts! answer as many questions as you can within a tight 15-second time limit. Get ready to put your knowledge to the test as you race against the clock to provide the correct answers.</p>
+        <button id="start-button">Start Game</button>
+        <button id="return-button">Return to List</button>
+    </div>
+
+    <div class="container" id="game-container">
+        <h1>BrainBlast</h1>
+        <div id="ready-message" style="display:none;"></div>
+        <div id="question"></div>
+        <div id="options"></div>
+        <div id="result"></div>
+        <div id="timer"></div>
+        <div id="buttons-container" class="buttons-container">
+            <button id="restart">Restart</button>
+            <button id="exit">Exit</button>
+        </div>
+    </div> 
+
+<script src="../scripts/game4-script.js"></script>
+</body>
+</html>

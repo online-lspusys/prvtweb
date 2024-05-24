@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#">WEMB MAV<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">x</span>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+            <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+        </nav>
+    </header>
+
+    <section id="contact" class="section-contact">
+        <div class="container-contact">
+            <div class="contactme" id="pop-animation"> 
+                <h1>CONTACT ME</h1>
+            </div>
+
+            <div class="social" id="animation-left">
+                <div class="email">
+                    <div class="email-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <a href="mailto:johncarlo.suriaga@lspu.edu.ph"><b>Send Email</b></a>
+                </div>
+
+                <div class="viber">
+                    <div class="viber-icon">
+                        <i class="fab fa-viber"></i>
+                    </div>
+                    <a target="_blank" href="https://viber.com"><b>Send Viber</b></a>
+                </div>
+
+                <div class="fb">
+                    <div class="fb-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <a target="_blank" href="https://www.facebook.com/dumppyyniliamm?mibextid=ZbWKwL"><b>Facebook</b></a>
+                </div>
+
+                <div class="wa">
+                    <div class="wa-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <a target="_blank" href="https://viber.com"><b>WhatsApp</b></a>
+                </div>
+
+                <div class="submit">
+                    <button class="submit-contact" onclick="showMessage(); clearInputs();">SUBMIT</button>
+                </div>
+
+                <div id="floating-window" class="floating-window">
+                    <p>YOURE MESSAGE HAS BEEN SENT!</p>
+                    <span class="close-button" onclick="hideMessage()">close</span>
+                </div>
+            </div>
+
+            <div id="background-overlay"></div>
+
+            <div class="textbox" id="animation-right">
+                <div class="textname">
+                    <input id="nameInput" class="inputbox" type="text" placeholder="PLEASE TYPE YOUR NAME"><br>
+                    <input id="emailInput" class="inputbox" type="text" placeholder="ENTER YOUR EMAIL"><br>
+                    <textarea id="messageInput" name="" cols="30" rows="10" placeholder="STATE YOUR CONCERN"></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../scripts/script.js"></script>
+    <script src="https://kit.fontawesome.com/790fcc8bb0.js" crossorigin="anonymous"></script>
+</body>
+</html>

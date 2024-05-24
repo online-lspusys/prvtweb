@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="../css/game-style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#">WEMB MAV<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">x</span>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="game-list">
+        <button class="game-button">
+            <img src="../image/uno.jpg" alt="Game 1 Logo">
+            <span>TAP IT</span>
+            <div class="play-button-container">
+                <button class="play-button" onclick="redirectToGame('game1.html')">Play Now</button>
+            </div>
+        </button>
+        </div>
+
+        <div class="game-list">
+        <button class="game-button">
+            <img src="../image/tap.jpg" alt="Game 2 Logo">
+            <span>UNO FLIP</span>
+            <div class="play-button-container">
+                <button class="play-button" onclick="redirectToGame('game2.html')">Play Now</button>
+            </div>
+        </button>
+        </div>
+
+        <div class="game-list">
+        <button class="game-button">
+            <img src="../image/g3.jpg" alt="Game 3 Logo">
+            <span>BOMBANEY</span>
+            <div class="play-button-container">
+                <button class="play-button" onclick="redirectToGame('game3.html')">Play Now</button>
+            </div>
+        </button>
+    </div>
+
+    <div class="game-list">
+        <button class="game-button">
+            <img src="../image/g4.jpg" alt="Game 4 Logo">
+            <span>BRAIN BLAST</span>
+            <div class="play-button-container">
+                <button class="play-button" onclick="redirectToGame('game4.html')">Play Now</button>
+            </div>
+        </button>
+    </div>
+
+    <div class="game-list">
+        <button class="game-button">
+            <img src="../image/g5.jpg" alt="Game 4 Logo">
+            <span>CODE BREAKER</span>
+            <div class="play-button-container">
+                <button class="play-button" onclick="redirectToGame('game5.html')">Play Now</button>
+            </div>
+        </button>
+    </div>
+    
+    <script src="../scripts/game-script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAP IT</title>
+    <link rel="stylesheet" href="../css/game1-style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#">WEMB MAV<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">x</span>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="start-screen">
+        <h2>TAP IT!</h2>
+        <p>Within a 30-seconds time interval, your task is to tap as many circles as you can. This game is all about quick reflexes and accuracy, so get ready to showcase your tapping skills like never before!</p>
+        <button id="start-button">Start Game</button>
+        <button id="return-button">Return to List</button>
+    </div>
+    
+    <div id="game-container" class="hidden">
+        <div id="circle"></div>
+            <div id="score-board">
+            <span id="score">Score: 0</span>
+            <span id="timer">Time: 30</span>
+        </div>
+        
+    <div id="control-buttons">
+        <button id="restart-button">Restart</button>
+        <button id="exit-button">Exit</button>
+    </div>
+</div>
+
+<script src="../scripts/game-script.js"></script>
+</body>
+</html>

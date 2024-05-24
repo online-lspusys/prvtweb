@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOMBANEY</title>
+    <link rel="stylesheet" href="../css/game3-style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#">WEMB MAV<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">x</span>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="album.html">Album</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="start-screen">
+        <h2>BOMBANEY</h2>
+        <p>An addictive game of skill and strategy where every click counts! navigate through a grid of boxes, clicking on each one to reveal its hidden value. But here's the twist – scattered among the boxes are deadly bombs that you must avoid at all costs.</p>
+        <button id="start-button">Start Game</button>
+        <button id="return-button">Return to List</button>
+    </div>
+
+    <div class="container" id="container">
+        <div id="control-buttons">
+        <button id="restart-button">Restart</button>
+        <button id="exit-button">Exit</button>
+    </div>
+    </div>
+    <div class="floating-score hidden" id="floating-score">
+        <span id="score-text"></span> <br>
+        <button id="ok-button">OK</button>
+    </div>    
+
+<script src="../scripts/game3-script.js"></script>
+</body>
+</html>

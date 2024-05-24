@@ -1,0 +1,131 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  background: url("../image/bg1.jpg");
+}
+
+header {
+  position: fixed;
+  background-color: #006d6b80;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+}
+  
+header .navbar {
+  display: flex;
+  align-items: center;
+  font-family: tahoma;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+}
+  
+.navbar .logo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.1rem;
+  text-decoration: none;
+}
+  
+.navbar .logo span {
+  color: #00c5c1;
+}
+  
+.navbar .menu-links {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+  
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease;
+  margin-right: 20px;
+}
+  
+.navbar a:hover {
+  color: #01fffb;
+  text-shadow: 0 0 5px #01fffb, 0 0 25px #01fffb, 0 0 50px #01fffb, 0 0 100px #01fffb, 0 0 200px #01fffb;
+}
+
+.game-list {
+  margin-bottom: 20px;
+}
+
+.game-container {
+  display: none;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.game-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.game-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background-color: hsla(0, 0%, 0%, 0.502);
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0 0 5px #01fffb, 0 0 7px #01fffb;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.game-button img {
+  width: 150px; 
+  height: 180px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #01fffb, 0 0 7px #01fffb;
+}
+
+.game-button span {
+  font-size: 16px;
+}
+
+.play-button-container {
+  margin-top: 10px;
+}
+
+.play-button {
+  width: 170px;
+  color: white;
+  background-color: hsla(0, 0%, 0%, 0.509);
+  border: 1px solid white;
+  box-shadow: 0 0 5px #01fffb, 0 0 7px #01fffb;
+  border-radius: 20px;
+}
+
+.play-button:hover {
+  background-color: hsl(0, 0%, 0%);
+  border: 1px solid #00c5c1;
+  color: #00c5c1;
+}
+
+
+
